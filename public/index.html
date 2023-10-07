@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescription Hashing</title>
+</head>
+<body>
+    <h1>Prescription Form</h1>
+    <form action="/generate-hash" method="post">
+        <label for="patientName">Patient Name:</label>
+        <input type="text" id="patientName" name="patientName"><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br>
+
+        <label for="prescriptionDate">Prescription Date:</label>
+        <input type="date" id="prescriptionDate" name="prescriptionDate"><br>
+
+        <label for="medicines">Medicines (comma-separated):</label>
+        <input type="text" id="medicines" name="medicines"><br>
+
+        <label for="quantities">Quantities (comma-separated):</label>
+        <input type="text" id="quantities" name="quantities"><br>
+
+        <label for="doctorName">Doctor's Name:</label>
+        <input type="text" id="doctorName" name="doctorName"><br>
+
+        <button type="submit">Submit Prescription</button>
+    </form>
+</body>
+</html>
